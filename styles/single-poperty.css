@@ -1,0 +1,3 @@
+.custom-progress >.bg-primary {
+    @apply bg-secondary
+}

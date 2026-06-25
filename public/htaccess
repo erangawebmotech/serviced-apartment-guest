@@ -1,0 +1,19 @@
+RewriteEngine On
+
+RewriteRule ^half-map/?$ https://servicedapartments.lk/ [R=301,L]
+RewriteRule ^contact-us/?$ https://servicedapartments.lk/ [R=301,L]
+RewriteRule ^category/announcements/?$ https://servicedapartments.lk/ [R=301,L]
+RewriteRule ^state/wp/?$ https://servicedapartments.lk/ [R=301,L]
+RewriteRule ^type/villa/?$ https://servicedapartments.lk/ [R=301,L]
+RewriteRule ^city/colombo/?$ https://servicedapartments.lk/ [R=301,L]
+RewriteRule ^country/sri-lanka/?$ https://servicedapartments.lk/ [R=301,L]
+RewriteRule ^listing/georgeus-apartment/?$ https://servicedapartments.lk/ [R=301,L]
+RewriteRule ^blog/?$ https://servicedapartments.lk/ [R=301,L]
+RewriteRule ^aboutus/?$ https://servicedapartments.lk/ [R=301,L]
+RewriteRule ^privacy-policy/?$ https://servicedapartments.lk/ [R=301,L]
+RewriteRule ^city/negombo/?$ https://servicedapartments.lk/ [R=301,L]
+RewriteRule ^category/blog/?$ https://servicedapartments.lk/ [R=301,L]
+RewriteRule ^city/kalutara/?$ https://servicedapartments.lk/ [R=301,L]
+RewriteRule ^city/galle/?$ https://servicedapartments.lk/ [R=301,L]
+RewriteRule ^type/apartment/?$ https://servicedapartments.lk/ [R=301,L]
+

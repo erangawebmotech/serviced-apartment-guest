@@ -1,0 +1,89 @@
+@keyframes slideUp {
+    0% {
+      transform: translateY(20%);
+      opacity: 0; 
+    }
+    100% {
+      transform: translateY(0); 
+      opacity: 1; 
+    }
+  }
+  .animatedSlideUp {
+    opacity: 0;
+    animation: slideUp .8s ease-in-out forwards;
+  }
+  .animatedSlideUpDelayed {
+    animation: slideUp .8s ease-in-out 1.5s forwards;
+  }
+  .animatedChildSlideUpDelayed {
+    animation: slideUp .8s ease-in-out 1.5s forwards;
+  }
+
+
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-20%);
+      opacity: 0; 
+    }
+    100% {
+      transform: translateY(0); 
+      opacity: 1; 
+    }
+  }
+  .animatedSlideDown {
+    opacity: 0;
+    animation: slideDown .8s ease-out .7s forwards;
+  }
+
+  .animatedSlideDownDelayed {
+    animation: slideDown .8s ease-out 1.5s forwards;
+  }
+
+  @keyframes slideLeft {
+    0% {
+      transform: translateX(10%);
+      opacity: 0; 
+    }
+    100% {
+      transform: translateX(0); 
+      opacity: 1; 
+    }
+  }
+  .animatedSlideLeft {
+    animation: slideLeft .5s ease-out forwards;
+  }
+
+  .animatedSlideLeftDelayed {
+    animation: slideLeft .8s ease-out 1s forwards;
+  }
+  
+
+  @keyframes opacityUP {
+    0% {
+      opacity: 0; 
+    }
+    100% {
+      opacity: 1; 
+    }
+  }
+  .animatedOpacityUp {
+    animation: opacityUP 1s ease-out forwards;
+  }
+  .animatedOpacityUpDelayed {
+    animation: opacityUP .8s ease-out 1.5s forwards;
+  }
+  
+
+  @keyframes slideUpCarousel {
+    0% {
+      transform: translateY(20%);
+      opacity: 0; 
+    }
+    100% {
+      transform: translateY(0); 
+      opacity: 1; 
+    }
+  }
+  .animatedCarouselSlideUp {
+    animation: slideUp .5s ease-out  forwards;
+  }

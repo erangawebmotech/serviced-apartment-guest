@@ -1,0 +1,18 @@
+.input-label {
+    /* @apply block text-xs font-medium text-gray-700 mb-1 */
+    @apply block font-normal  text-sm mb-2 text-gray-700
+}
+.form-section-header {
+    @apply font-semibold text-lg text-primary
+}
+
+.form-section {
+    @apply border rounded-md p-6 space-y-4 shadow-sm
+}
+
+.input-field {
+    @apply shadow-none py-5
+}
+.radio-payment .fill-primary {
+    @apply fill-secondary
+}

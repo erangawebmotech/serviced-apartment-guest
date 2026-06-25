@@ -1,0 +1,4 @@
+.login-socials{
+    @apply border border-gray-300 p-3 cursor-pointer rounded-lg hover:scale-105 duration-300
+}
+
